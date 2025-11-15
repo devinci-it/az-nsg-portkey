@@ -1,0 +1,47 @@
+22/TCP                 # SSH
+23/TCP                 # Telnet
+25/TCP                 # SMTP
+53/TCP/UDP             # DNS (TCP for zone transfers / large responses, UDP for normal queries)
+67/UDP                 # DHCP server
+68/UDP                 # DHCP client
+69/UDP                 # TFTP
+80/TCP                 # HTTP
+110/TCP                # POP3
+111/TCP/UDP            # RPC / Portmapper (NFS dependency)
+113/TCP                # Ident
+119/TCP                # NNTP
+123/UDP                # NTP
+135/TCP                # RPC Endpoint Mapper
+137-139/TCP/UDP        # NetBIOS / SMB
+143/TCP                # IMAP
+161-162/UDP            # SNMP / SNMP Trap
+389/TCP/UDP            # LDAP
+445/TCP                # SMB over TCP
+500/UDP                # IKE / IPsec
+512-513/TCP            # rexec / rlogin
+514/UDP                # Syslog (TCP exists but uncommon)
+520/UDP                # RIP
+587/TCP                # SMTP Submission
+631/TCP                # CUPS Printing
+892/TCP                # GSS-API / NFS-related
+1433/TCP               # MSSQL Server
+1434/UDP               # MSSQL Browser
+1521-1526/TCP          # Oracle DB Listener
+1524/TCP               # IngresLock
+1723/TCP               # PPTP
+1812-1813/UDP          # RADIUS
+1900/UDP               # UPnP SSDP
+2049/TCP/UDP           # NFS
+3128/TCP               # Squid Proxy
+3306/TCP               # MySQL
+3389/TCP               # RDP
+50000/TCP              # DB2
+5060/TCP/UDP           # SIP
+5432/TCP               # PostgreSQL
+5632/TCP               # PCAnywhere
+5900/TCP               # VNC
+6000-6063/TCP          # X11
+8080/TCP               # HTTP-alt / Proxy
+8443/TCP               # HTTPS-alt
+10000/TCP              # Webmin
+11371/TCP              # OpenPGP HKP

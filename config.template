@@ -1,0 +1,7 @@
+
+RESOURCE_GROUP="<resource-group-name"
+NSG_NAME="<nsg-name>"
+REJECT_PORT_FILE="$WORKDIR/reject-ports.list"
+DEFAULT_HOURS=1
+DEFAULT_SOURCE_IP="*"
+
